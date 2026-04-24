@@ -131,6 +131,32 @@ $ git commit -m "Update services.html with more services"
 $ git push
 
 
+````
+BUNDLE 3
+EXERCISE 1
+````
+```bash
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git branch ft/team-page
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git switch ft/team-page
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/team-page)
+$ touch team.html
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/team-page)
+$ git commit -m "update the team page"
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/team-page)
+$ git push origin ft/team-page
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/team-page)
+$ git switch main
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git branch ft/contact-page
+
+
+
+
+
+
+
 
 
 
