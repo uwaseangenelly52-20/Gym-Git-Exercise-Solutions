@@ -79,9 +79,58 @@ $ git reset --hard
 $ git status
 ````
 BUNDLE 2
-EXERCISE 1
+Exercise 1
 ````
 ```bash
+
+
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git branch ft/bundle-2
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git switch ft/bundle-2
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git touch service.html
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git commit -m "Add services page"
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git add README.md
+
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git add service.html
+
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git commit -m "Add services page"
+
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git push origin ft/bundle-2
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git add .
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git commit -m "Fix review comments"
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git push --set-upstream origin ft/bundle-2
+
+
+EXERCISE 2 
+````
+```bash
+
+
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (ft/bundle-2)
+$ git switch main
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git pull origin main
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git branch ft/service-redesign
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git add services.html
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git commit -m "Update services.html with more services"
+3D@DESKTOP-U0DIQ3C MINGW64 /s/git-exercises (main)
+$ git push
+
+
 
 
 
